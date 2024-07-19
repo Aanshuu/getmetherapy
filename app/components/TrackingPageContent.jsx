@@ -55,7 +55,7 @@ export default function TrackingPageContent() {
 
     fetchQuote();
 
-    const quoteInterval = setInterval(fetchQuote, 10000);
+    const quoteInterval = setInterval(fetchQuote, 7000);
 
     return () => clearInterval(quoteInterval);
   }, []);
@@ -98,7 +98,7 @@ export default function TrackingPageContent() {
                 </ul>
               )}
             </div>
-            <div className="space-y-10 pt-40 flex flex-col items-center justify-center text-black">
+            <div className="space-y-10 sm:pt-40 pt-10 flex flex-col items-center justify-center text-black">
               <AnalogClock speed={speed} />
               <SpeedSlider speed={speed} setSpeed={setSpeed} />
               <ShareButton speed={speed} />
