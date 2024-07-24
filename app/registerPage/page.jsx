@@ -84,7 +84,7 @@ export default function RegisterPage() {
                     name="email"
                     value={userDetails.email}
                     onChange={changeUserDetailsHandler}
-                    className="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm border-gray-300 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm"
+                    className="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm border-gray-300 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm text-black"
                     placeholder="Enter Email"
                   />
                 </div>
